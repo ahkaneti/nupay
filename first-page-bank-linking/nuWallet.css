@@ -1,0 +1,1205 @@
+/*
+	Global classes
+					*/
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+	box-sizing: inherit;
+	box-sizing: border-box;
+}
+
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin-top: 105px;
+	margin-left: 23px;
+	background-color: white;
+	color: gray;
+}
+
+#screen-2 {
+	height: 530px;
+	width: 300px;
+	margin-top: 105px;
+	margin-left: 31px;
+	background-color: white;
+	color: gray;
+}
+
+.head-bar-nu {
+	text-align: center;
+	background-color: purple;
+	color: white;
+	width: 300px;
+	height: 45px;
+}
+/* .add-button
+{
+	width:15px;
+	height:15px;
+	display: inline;
+} */
+.head-bar-nu h1{
+	font-size: 24px;
+	font-family: Avenir, sans-serif;
+	font-weight: normal;
+	padding-top: 8px;
+}
+
+#solo-card
+{
+	padding-top:60px;
+	padding-left: 50px;
+	padding-bottom: 80px;
+
+}
+.head-bar-nu h2{
+	font-size: 24px;
+	font-family: Avenir, sans-serif;
+	font-weight: normal;
+	display: inline;
+	text-align: center;
+}
+
+.action-button-right {
+	text-align: right;
+	background-color: black;
+}
+
+.application
+{
+	height:440px;
+	width:300px;
+}
+.application img
+{
+	padding-top: 15px;
+	height:150;
+	width:200;
+	margin-bottom: 10px;
+}
+.applicationPay
+{
+	height:440px;
+	width:300px;
+}
+.applicationPay p1
+{
+	font-size: 35px;
+	font-family: Avenir, sans-serif;
+	margin-left: 100px;
+	padding-top:10px;
+}
+.applicationPay p2
+{
+	font-size:17px;
+}
+.applicationPay img
+{
+	padding-top:30px;
+	height:150;
+	width:200;
+	margin-bottom:10px;
+	margin-left: 50px;
+}
+.cardPic
+{
+	padding-top:30px;
+	height:150;
+	width:200;
+	margin-bottom:10px;
+	margin-left: 50px;
+}
+.budget-type
+{
+	font-size:23px;
+	text-align: center;
+	margin-top: 0px;
+}
+.card-images
+{
+	text-align: center;
+	font-size: 24px;
+}
+.progress-bar
+{
+	height:80px;
+
+}
+.progress-total
+{
+	background-color: #CCCCCC;
+	width:70%;
+	margin-left: 45px;
+	height:16px;
+}
+#progress-sofar
+{
+	background-color:#00E065;
+	height:16px;
+	width:40px;
+}
+#progress-tomake
+{
+	background-color:#FF8000;
+	height:16px;
+	width:54px;
+}
+
+#progress-sofar2
+{
+	background-color:#00E065;
+	height:16px;
+	width:40px;
+}
+#progress-tomake2
+{
+	background-color:#FF8000;
+	height:16px;
+	width:154px;
+}
+.zero{
+	width:11px;
+	float:left;
+	font-size: 14px;
+	font-family: Avenir;
+}
+
+.total-budget{
+	float:right;
+	font-size: 14px;
+	font-family: Avenir;
+}
+
+#warning
+{
+	position: absolute;
+	text-align: center;
+	top: 230px;
+	margin-top:230px;
+	left:75px;
+
+}
+#warningB
+{
+	position: absolute;
+	text-align: center;
+	top: 230px;
+	margin-top:230px;
+	left:125px;
+}
+#warningC
+{
+	position: absolute;
+	text-align: center;
+	top: 230px;
+	margin-top:230px;
+	left:100px;
+
+}
+#warningD
+{
+	position: absolute;
+	text-align: center;
+	top: 230px;
+	margin-top:230px;
+	left:90px;
+}
+#warning2
+{
+	position: absolute;
+	text-align: center;
+	left:55px;
+}
+
+.touchID
+{
+	height:90px;
+	width:108px;
+	position:absolute;
+	left:125px;
+	top:400px;
+}
+
+#cancel-button{
+	margin-left: 60px;
+}
+
+.confirm-button{
+	margin-left:70px;
+}
+
+.spendings{
+	position: inline;
+	align: inline-flex;
+	height:30px
+}
+
+#cards-list{
+
+	width: 160px;
+	height:120px;
+	margin-left: 70px;
+	margin-top: 0px;
+}
+#cards-list ul{
+	margin-right: 16px;
+	height:180px;
+	padding-bottom: 40px;
+}
+
+#cards-list li
+{
+	margin-right:16px;
+	height:170px;
+	padding-right: 64px;
+	border: 1px black solid;
+	background-color:lightgray;
+	margin-top:8px;
+	margin-bottom:20px;
+	width:140px;
+	padding-top:0px;
+}
+.card-images img
+{
+	height: 90px;
+	width:120px;
+}
+.bottom-bar {
+	text-align: center;
+	width: 300px;
+	height:45px;
+	color:#F2F2F2;
+	margin-top:0px;
+	position: absolute;
+	top: 593px;
+	left:31px;
+	display: inline-flex;
+}
+
+.cancel-done-buttons {
+	position: absolute;
+	top:530px;
+	left:0px;
+}
+
+.cancel-done-buttons a
+{
+	color:white;
+}
+
+#done-button {
+	width: 120px;
+	height: 32px;
+	background-color: #6F2177;
+	color: white;
+}
+
+#cancel-button {
+	width: 120px;
+	height: 32px;
+}
+#cancel-button2
+{
+	height:32px;
+	margin-left: 85px;
+	width:200px;
+}
+
+.bottom-bar-button1 {
+	height:45px;
+	width: 60px;
+	margin: 0px;
+	border: none;
+	background-color:#F2F2F2;
+	font-size:12px;
+
+}
+
+.bottom-bar-button2{
+	height:45px;
+	width: 60px;
+	margin: 0px;
+	border: none;
+	background-color:#F2F2F2;
+	font-size:12px;
+}
+.this-button
+{
+	height:45px;
+	width: 60px;
+	margin:0px;
+	border: none;
+	background-color:lightblue;
+}
+.bottom-bar-button3
+{
+	height:45px;
+	width: 60px;
+	margin: 0px;
+	border: none;
+	background-color:#F2F2F2;
+	font-size:12px;
+}
+
+.bottom-bar-button4{
+	height:45px;
+	width: 60px;
+	margin: 0px;
+	border:none;
+	background-color:#F2F2F2;
+	font-size:12px;
+}
+
+.bottom-bar-button5{
+	height:45px;
+	width: 60px;
+	margin: 0px;
+	border:none;
+	background-color:#F2F2F2;
+	font-size:12px;
+}
+
+.back-arrow {
+	position: absolute;
+	left: 30px;
+	margin-top: 12px;
+	height: 20px;
+	display: inline-flex;
+	color: white;
+	float: left;
+}
+
+.back-arrow-text {
+	margin-top: 3px;
+	margin-left: -6px;
+	font-family: Avenir, sans-serif;
+	font-weight: normal;
+}
+
+.back-button {
+	height:45;
+	background-color: inherit;
+	border-color: inherit;
+	color: black;
+	padding-right:250px;
+}
+
+.back-button img
+{
+	padding-top: 2px;
+	height:36px;
+	width: 36px;
+}
+
+.budget-title {
+	font-size: 22px;
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	font-style: underline;
+	font-family: Avenir, sans-serif;
+}
+
+.budget-stat-list{
+	width: 80%;
+	margin-left: 30;
+	margin-top: 5;
+}
+
+.stat-list-item{
+	text-decoration: underline;
+	padding-bottom: 5px;
+	margin-bottom: 25px;
+	font-family: Avenir, sans-serif;
+	font-size: 14px;
+}
+
+.stat-list-name{
+	float: left;
+}
+
+.stat-list-data{
+	float: right;
+}
+
+.smaller-text {
+	font-size: 14px;
+}
+
+.stat-list-tendency{
+	color: #00CC33;
+}
+
+
+.hr-line {
+	margin-bottom: 15px;
+	height: 1px;
+	background-color: lightgray;
+}
+
+#progress-groceries {
+	background-color: #00E065;
+	height:16px;
+	width:84px;
+}
+
+.upper-screen {
+	height:440px;
+	width:300px;
+}
+
+.upper-screen p1 {
+	font-size: 35px;
+	font-family: Avenir, sans-serif;
+	margin-left: 100px;
+	padding-top:10px;
+}
+
+.upper-screen p2 {
+	font-size:17px;
+}
+
+
+.total-budget-title {
+	font-size: 22px;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	font-style: underline;
+	font-family: Avenir, sans-serif;
+}
+
+.top-progress-bar {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height:80px;
+	width: 90%;
+	margin-bottom: -30px;
+}
+
+.top-progress-total
+{
+	background-color: #CCCCCC;
+	height:25px;
+}
+
+#total-progress-1st {
+	background-color: #00E065;
+	height:25px;
+	width:9%;
+	display: inline-grid;
+}
+#total-progress-2nd {
+	background-color: #008EFF;
+	height:25px;
+	width:20%;
+	margin: 0px;
+	margin-left: -4px;
+	display: inline-grid;
+}
+#total-progress-3rd {
+	background-color: #FFCC00;
+	height:25px;
+	width:17%;
+	margin-left: -4px;
+	display: inline-block;
+}
+#total-progress-4th {
+	background-color: #8000FF;
+	height:25px;
+	width:5%;
+	margin-left: -4px;
+	display: inline-grid;
+}
+
+.item-budget-title {
+	font-size: 22px;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-style: underline;
+	font-family: Avenir, sans-serif;
+}
+
+.main-progress-bar {
+	height:80px;
+	margin-bottom: -29px;
+}
+
+#progress-fast-food {
+	background-color: #008EFF;
+	height:16px;
+	width:10%;
+
+}
+
+#progress-education {
+	background-color: #FFCC00;
+	height:16px;
+	width:53%;
+
+}
+
+#progress-entertainement {
+	background-color: #8000FF;
+	height:16px;
+	width:8%;
+
+}
+#sub-progress-groceries {
+	background-color: #00E065;
+	height:16px;
+	width:39%;
+}
+.progress-link {
+	color: #7D7D7D;
+	text-decoration: none;
+	font-family: Avenir, sans-serif;
+}
+
+.icon-changer {
+	color:#666666;
+}
+.icon-changer2 {
+	color:#666666;
+	position: absolute;
+	top:15px;
+	left:50px;
+}
+.category {
+	padding-top: 10px;
+	border-style: solid;
+	border-color:#CCCCCC;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	border-width: .05px;
+}
+.add-button {
+	position: absolute;
+	left: 295px;
+	top: 120px;
+	width:40px;
+	font-family: Avenir, sans-serif;
+	font-size:15px;
+	color:white;
+	font-weight: normal;
+	text-align: left;
+}
+
+#total-money-spent{
+	margin-left: 53px;
+	margin-bottom: 20px;
+	margin-top:20px;
+	font-size: 28px;
+	display: inline-block;
+	font-family: Avenir, sans-serif;
+}
+
+#money-spent{
+	font-size: 28px;
+	position: absolute;
+	top:203px;
+	left:180px;
+	display: inline-block;
+	font-family: Avenir, sans-serif;
+}
+
+.transaction-card {
+	font-family: Avenir, sans-serif;
+	font-size:18px;
+	display: inline-block;
+	text-align: left;
+	margin-left: 15px;
+	margin-bottom: 0px;
+}
+
+.transaction-date {
+	font-family: Avenir, sans-serif;
+	font-size:13px;
+	text-align: right;
+	margin-right:10px;
+	text-align: top;
+	display: inline-block;
+	float:right;
+	float:top;
+}
+
+.transaction-location {
+	font-family: Avenir, sans-serif;
+	font-size:13px;
+	text-align: left;
+	margin-left: 15px;
+	margin-bottom: 0px;
+	margin-right: 40px;
+	padding-right: 0px;
+}
+
+.transaction-amount {
+	font-family: Avenir, sans-serif;
+	font-size:17px;
+	display:inline-block;
+	float: right;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+.transaction-category {
+	padding-top: 10px;
+	border-style: solid;
+	border-color:#CCCCCC;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	border-width: .05px;
+}
+
+.transaction-header {
+	font-size: 18px;
+	font-family: Avenir, sans-serif;
+	margin-left:70px;
+	margin-bottom: 8px;
+	margin-top:8px;
+}
+
+.account-info {
+	width: 280px;
+	height: 60px;
+	margin-top: 10px;
+	margin-left: 10px;
+	border-style: solid;
+	border-color:#CCCCCC;
+	border-width: .05px;
+	padding-top: 10px;
+}
+
+#bank-search-us-bank{
+	width: 70px;
+	margin-left: 111px;
+	margin-top: -9px;
+
+}
+
+#bank-search-wells{
+	width: 70px;
+	margin-left: 80px;
+	margin-top: -9px;
+
+}
+
+#bank-search-chase{
+	width: 70px;
+	margin-left: 80px;
+	margin-top: -3px;
+
+}
+.account-number
+{
+	font-family: Avenir, sans-serif;
+	font-size:17px;
+	position: relative;
+	left: 20px;
+}
+
+.account-number-chase
+{
+	font-family: Avenir, sans-serif;
+	font-size:17px;
+	margin-left: 20px;
+	position: relative;
+	top: 10px;
+}
+
+.tell-balance{
+	font-family: Avenir, sans-serif;
+	font-size:17px;
+	margin-left: 54px;
+
+}
+
+.tell-balance-chase{
+	font-family: Avenir, sans-serif;
+	font-size:17px;
+	margin-left: 34px;
+	position: relative;
+	top: 10px;
+
+}
+#account-balance
+{
+	font-family: Avenir, sans-serif;
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+#account-balance-chase
+{
+	font-family: Avenir, sans-serif;
+	font-size: 20px;
+	margin-left: 10px;
+	position: relative;
+	top: 10px;
+}
+
+#fix-link {
+	text-decoration: none;
+	font-weight: normal;
+	color: #7D7D7D;
+}
+
+.account-title {
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-left: 15px;
+	font-family: Avenir, sans-serif;
+	color: #004080;
+}
+
+.account-info-header {
+	height: 122px;
+}
+
+.account-filter-header {
+	height: 100px;
+	width: 90%;
+	margin-left: 15px;
+}
+
+
+.account-transaction-lblock {
+	display: inline-block;
+	height: 40px;
+	width: 200px;
+}
+
+.account-transaction-name {
+	font-family: Avenir, sans-serif;
+	font-size:14px;
+	color: #4C4C4C;
+	float: left;
+	margin-left: 15px;
+	margin-bottom: 0px;
+}
+
+.account-transaction-date {
+	font-family: Avenir, sans-serif;
+	font-size:12px;
+	margin-left: 17px;
+	margin-bottom: 0px;
+}
+
+.account-transaction-amount {
+	font-family: Avenir, sans-serif;
+	font-size:18px;
+	display: inline-block;
+	float: right;
+	margin-right: 15px;
+	margin-top: 10px;
+}
+
+.transaction-credit{
+	color: #E9736E;
+
+}
+
+.transaction-debit{
+	color: #4EC462;
+}
+
+.account-transaction-category {
+	padding-top: 7px;
+	padding-bottom: 3px;
+	border-style: solid;
+	border-color:#CCCCCC;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-width: .05px;
+}
+
+.recent-transactions-title {
+	font-family: Avenir, sans-serif;
+	font-weight: lighter;
+	font-style: italic;
+	color: #004080;
+	font-size: 19px;
+	text-align: left;
+	margin-left: 15px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.recent-transactions{
+	margin-top: -5px;
+	height: 285px;
+}
+
+.recent-transactions-filter{
+	margin-top: -5px;
+	height: 306px;
+}
+
+.transactions-filter-notfound{
+	font-family: Avenir, sans-serif;
+	font-weight: lighter;
+	font-style: italic;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 70px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.hr-line-2 {
+	margin-bottom: 5px;
+	height: 1px;
+	background-color: lightgray;
+}
+
+.filter-button{
+	position: absolute;
+	left: 285px;
+	top: 120px;
+	font-family: Avenir, sans-serif;
+	font-size:15px;
+	color:white;
+	font-weight: normal;
+}
+
+.filter-cancel-button {
+	position: absolute;
+	left: 37px;
+	top: 120px;
+	color: white;
+	font-family: Avenir, sans-serif;
+	font-weight: normal;
+	font-size:15px;
+}
+
+#available-balance-amount{
+	font-size: 28px;
+	position: relative;
+	top: 23px;
+	left:165px;
+	font-family: Avenir, sans-serif;
+	color: #4C4C4C;
+}
+
+#available-balance-text{
+	position: relative;
+	top: 45px;
+	left: 25px;
+	font-size: 17px;
+	font-family: Avenir, sans-serif;
+	color: #004080;
+}
+
+#account-number-text{
+	font-size: 14px;
+	position: absolute;
+	top:260px;
+	left: 45px;
+	font-family: Avenir, sans-serif;
+}
+
+#account-number-data{
+	font-size: 14px;
+	position: absolute;
+	top:260px;
+	left: 250px;
+	font-family: Avenir, sans-serif;
+}
+
+#routing-number-text{
+	font-size: 14px;
+	position: absolute;
+	top:280px;
+	left: 45px;
+	font-family: Avenir, sans-serif;
+}
+
+#routing-number-data{
+	font-size: 14px;
+	position: absolute;
+	top:280px;
+	left: 250px;
+	font-family: Avenir, sans-serif;
+}
+
+#filter-amount-text{
+	position: relative;
+	top: -20px;
+	font-family: Avenir, sans-serif;
+	font-size: 18px;
+}
+
+#filter-form-min{
+	position: absolute;
+	top: 235px;
+	left: 135px;
+	width: 80px;
+}
+
+#filter-form-max{
+
+	position: absolute;
+	top: 235px;
+	left: 235px;
+	width: 80px;
+}
+
+.account-filtered-header{
+	height: 88px;
+	width: 90%;
+	margin-left: 15px;
+}
+
+.filtered-category {
+	margin-top: 10px;
+	font-family: Avenir, sans-serif;
+	font-size: 17px;
+}
+
+#filtered-category{
+	position: absolute;
+	left: 180px;
+	font-style: italic;
+}
+
+.filtered-date {
+	margin-top: 10px;
+	font-family: Avenir, sans-serif;
+	font-size: 17px;
+}
+
+#filtered-date {
+	position: absolute;
+	left: 180px;
+	font-style: italic;
+}
+
+.filtered-amount {
+	margin-top: 10px;
+	font-family: Avenir, sans-serif;
+	font-size: 17px;
+}
+
+#filtered-amount {
+	position: absolute;
+	left: 180px;
+	font-style: italic;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown {
+	position: absolute;
+	top: -10px;
+
+}
+
+.show {display:block;}
+
+#category-search-logos {
+	width: 30px;
+	position: absolute;
+	left: 140px;
+	margin-top: -5px;
+}
+.account-inform
+{
+	width: 280px;
+	height: 200px;
+	margin-top: 10px;
+	margin-left: 10px;
+	border-style: solid;
+	border-color:#CCCCCC;
+	border-width: .05px;
+	padding-top: 10px;
+}
+
+.account-inform img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:35%;
+}
+
+.account-name
+{
+	text-align: center;
+	margin-top: 20px;
+	font-family: Avenir, sans-serif;
+	font-size:17px;
+	font-weight: bold;
+}
+
+.date-joined
+{
+	text-align: center;
+	font-family: Avenir, sans-serif;
+	font-size:17px;
+}
+
+#change-password {
+	margin-top: 110px;
+}
+
+#logout
+{
+	margin-top: 180px;
+	/* position: absolute;
+	top:400px; */
+}
+
+.button
+{
+	width: 120px;
+	height: 32px;
+	line-height: 32px;
+	border-radius: 2px;
+	font-size: 12px;
+	font-family: Avenir, sans-serif;
+	background-color: #0f9d58;
+	color: #fff;
+  margin: 0;
+  padding: 0;
+  border-color: #0f9d58;
+	position:absolute;
+	top:320px;
+	left:120px;
+}
+.linked-registry {
+	margin-left:10px;
+	margin-top: -10px;
+	margin-right: 50px;
+	width: 200px;
+	height:100px;
+}
+.registry-writing {
+	font-size: 18px;
+	font-family: Avenir, sans-serif;
+}
+
+#month-bar {
+	border-style: solid;
+	border-width: 1px;
+}
+
+.values-total {
+	/* margin-left: 10px */
+}
+
+#groceries-category {
+	/* margin-left:45px; */
+}
+
+#password-change-field {
+	margin-top: 40px;
+	margin-left:10px;
+}
+
+#repeat-password {
+	margin-left: 10px;
+	margin-top: 20px;
+	width: 260px;
+}
+
+#old-password {
+	width: 260px;
+}
+
+#new-password {
+	width: 260px;
+}
+
+#set-password{
+	margin-top: 50px;
+}
+
+.scrollable {
+	overflow: scroll;
+}
+
+.add-card-prompts
+{
+	text-align: center;
+}
+
+/* List of trancaction category classes {
+	tc-groceries
+	tc-fastfood
+	tc-edu
+	tc-enter
+	tc-deposit
+	tc-other
+} */
+
+.recent-budgets-filter{
+	position: relative;
+	top:-14px;
+	/* margin-top: -5px; */
+	height: 322px;
+	width:300px;
+}
+
+#progress-clothing {
+	background-color: #00E065;
+	height:16px;
+	width:50%;
+}
+
+#progress-millennial {
+	background-color: #008EFF;
+	height:16px;
+	width:30%;
+}
+
+#progress-traveling {
+	background-color: #FFCC00;
+	height:16px;
+	width:37%;
+}
+
+#progress-drinks {
+	background-color: #8000FF;
+	height:16px;
+	width:25%;
+}
+
+#hide-button {
+	border-color:white;
+	outline: none;
+}
+
+#hiddenBudget{
+	visibility: hidden;
+}
+#progress-hidden {
+	background-color: #00E065;
+	height:16px;
+	width:25%;
+}
